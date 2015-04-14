@@ -1,6 +1,6 @@
-¹¦ÄÜ£ºµ¼³öÄ³´ÎgitÌá½»×îÐÂ°æ£¬´ò°ü³ÉÒ»¸öÎÄ¼þ¼Ð£¬²¢´Ó·þÎñÆ÷ftpÉÏÏÂÔØ±¸·ÝÎÄ¼þ
+åŠŸèƒ½ï¼šå¯¼å‡ºæŸæ¬¡gitæäº¤æœ€æ–°ç‰ˆï¼Œæ‰“åŒ…æˆä¸€ä¸ªæ–‡ä»¶å¤¹ï¼Œå¹¶ä»ŽæœåŠ¡å™¨ftpä¸Šä¸‹è½½å¤‡ä»½æ–‡ä»¶  
 
-1.°²×°python3.4
-2.Ìí¼Ó»·¾³±äÁ¿C:\Python34;C:\Python34\Scripts;
-3.½Å±¾·ÅÖÃÔÚÉÏ´«´úÂëµÄÄ¿Â¼,±à¼­export.bash ÉèÖÃreop_pathÂ·¾¶,±à¼­ftp_copy.py ÉèÖÃftp²ÎÊý
-4.´ò¿ªgit bash,ÔËÐÐ./export.bash,°´ÌáÊ¾ÊäÈëcommit°æ±¾¹þÏ£Öµ¼´¿É
+1.å®‰è£…python3.4  
+2.æ·»åŠ çŽ¯å¢ƒå˜é‡C:\Python34;C:\Python34\Scripts;  
+3.è„šæœ¬æ”¾ç½®åœ¨ä¸Šä¼ ä»£ç çš„ç›®å½•,ç¼–è¾‘export.bash è®¾ç½®reop_pathè·¯å¾„,ç¼–è¾‘ftp_copy.py è®¾ç½®ftpå‚æ•°  
+4.æ‰“å¼€git bash,è¿è¡Œ./export.bash,æŒ‰æç¤ºè¾“å…¥commitç‰ˆæœ¬å“ˆå¸Œå€¼å³å¯
