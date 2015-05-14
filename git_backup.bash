@@ -1,6 +1,5 @@
-
-# bash/zsh
-repo_path=/d/Code/xx
+#!/bin/bash
+repo_path=~/Code/z2e
 file_list=null
 __git_backup()
 {
@@ -11,6 +10,18 @@ __git_backup()
     git branch --no-track backup "$1" 
     git checkout backup
     git reset  --hard "$1"~
+    __copy_list "$target"
+    git checkout master
+    git branch -d backup
+     return 1
+    else
+     return 0
+    fi
+}
+
+__copy_list()
+{
+    target=$1
     for i in $file_list
     do 
         if [ -f "$i" ]; then
@@ -20,19 +31,12 @@ __git_backup()
         cp "$i" "$target/$i"
         fi
     done
-    git checkout master
-    git branch -d backup
-     return 1
-    else
-     return 0
-    fi
 }
 __git_export ()
 {	
     if [ -n "$1" ]; then
      mkdir -p "$2/$1"
-     #no --parents in mac osx
-     cp -pv --parents $file_list "$2/$1"
+     __copy_list "$2/$1"
      return 1
     else
      return 0
