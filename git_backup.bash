@@ -31,6 +31,7 @@ __git_export ()
 {	
     if [ -n "$1" ]; then
      mkdir -p "$2/$1"
+     #no --parents in mac osx
      cp -pv --parents $file_list "$2/$1"
      return 1
     else
